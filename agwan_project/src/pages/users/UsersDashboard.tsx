@@ -1,7 +1,9 @@
-import React from 'react'
+import NavbarMenu from '../../components/menu/NavbarMenu'
 
 export default function UsersDashboard() {
   return (
-    <div>UsersDashboard</div>
+    <NavbarMenu>
+        <h1>Hello</h1>
+    </NavbarMenu>
   )
 }
