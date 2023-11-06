@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Login from '../pages/menu/Login'
-import Register from '../pages/menu/Register'
-import UsersDashboard from '../pages/users/UsersDashboard'
+import Login from '../pages/menu/Login.tsx'
+import Register from '../pages/menu/Register.tsx'
+import UsersDashboard from '../pages/users/UsersDashboard.tsx'
 
 export default function Router() {
   return (
